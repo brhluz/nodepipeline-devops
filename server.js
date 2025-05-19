@@ -8,7 +8,7 @@ const os = require('os')
 const hostname = os.hostname()
 
 const router = express.Router();
-const port = process.env.PORT;
+const port = process.env.PORT; //
  
 // Configurar métricas padrão (CPU, Heap, Event Loop)
 client.collectDefaultMetrics({ register });
